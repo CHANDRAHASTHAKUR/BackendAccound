@@ -1,0 +1,65 @@
+1) Main App
+2) Controller (RestApis EndPoints)(class)
+3) Service (Business Logic)(class)
+4) DAO(Data Access Object)/entity/Table(class)
+5) Repository (Jpa) extent JPARepository<EntityName,EntityPKtype>(interface)
+6) Utils(helper functions, errorCode,PspContant)(class)
+7) DTO(Data Transfer Object) -> {
+    OOPS
+    Scope : Logic Execution (LifyCycle of RestApi)
+    Usage : logic implementation if object required
+    RequestDto : {name,customerId,...}
+    ResponseDto : {name,accountNumber,IFSC,type,bankName}
+}
+
+
+Table Name
+======================
+Accounts
+-------------
+id (unique + notnull =  PK)
+name(String -> varchar(255))
+customerId(String -> varchar(Unique PK)
+accountNumber(String unique)
+ifsc(String)
+info(Json)
+bankName(String)
+amount(String)
+type(String)
+createdAt(Date)
+updatedAt(Date)
+
+==============================
+Operator(Telecomm)
+---------------
+id(PK)
+name(String -> varchar(255))
+circle(string -> varchar(255))
+status(string -> enum)
+
+=========================================
+ String, Integer, Long, BigDecimal, Double
+     ArrayList<String> arr = ["1","2","3"];   |  [1,2,3,4,"5"](Exception)
+     ArrayList<Integer> numbers = [1,2,3,4,5]; |  [1,2,3,4,"5"](Exception)
+     Accounts acc1 = new Accounts(); //instance of an object
+     Accounts acc1 = new Accounts();
+     ArrayList<Accounts> acc = new ArrayList<>();
+     acc.add(acc1);
+     acc.add(acc2);
+
+=================================================================
+
+BankAccountController ("/api/v1/banks")
+CustomerController ("/api/v1/customer")
+TransactionController("/api/v1/transaction")
+========================================
+@Data -> it is used for lambok , lambok is a dev tool , After using @Data it's automatic fatching getter and setter
+=========================================
+Request come from the frontend
+required:-
+name
+info
+bankName
+type
+===============================
+

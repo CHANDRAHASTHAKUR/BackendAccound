@@ -1,0 +1,26 @@
+Froentend
+name
+amount
+type
+
+generate by backend
+
+id
+customerId
+accountNumber
+ifsc
+=========================
+
+accountNumber
+bankName
+IFSC
+amount
+type
+name
+
+  {"name";"ABC",
+  "amount"; "3000",
+  "type"; "saving"
+ }
+
+/api/v1/banks/createAccounts
