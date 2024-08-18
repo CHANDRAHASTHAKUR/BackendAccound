@@ -1,0 +1,13 @@
+/home/ubuntu/BackendAccound/src/main/java/com/fileprocessor/accounts/AccountsApplication.java
+/home/ubuntu/BackendAccound/src/main/java/com/fileprocessor/accounts/controller/BankAccountController.java
+/home/ubuntu/BackendAccound/src/main/java/com/fileprocessor/accounts/dto/AccountRequest.java
+/home/ubuntu/BackendAccound/src/main/java/com/fileprocessor/accounts/dto/AccountResponse.java
+/home/ubuntu/BackendAccound/src/main/java/com/fileprocessor/accounts/dto/DepositRequest.java
+/home/ubuntu/BackendAccound/src/main/java/com/fileprocessor/accounts/dto/DepositResponse.java
+/home/ubuntu/BackendAccound/src/main/java/com/fileprocessor/accounts/dto/WidthdrawRequest.java
+/home/ubuntu/BackendAccound/src/main/java/com/fileprocessor/accounts/dto/WidthdrawResponse.java
+/home/ubuntu/BackendAccound/src/main/java/com/fileprocessor/accounts/entity/Accounts.java
+/home/ubuntu/BackendAccound/src/main/java/com/fileprocessor/accounts/repository/AccountsRepo.java
+/home/ubuntu/BackendAccound/src/main/java/com/fileprocessor/accounts/service/AccountsService.java
+/home/ubuntu/BackendAccound/src/main/java/com/fileprocessor/accounts/utils/AccountsConstant.java
+/home/ubuntu/BackendAccound/src/main/java/com/fileprocessor/accounts/utils/Helper.java
